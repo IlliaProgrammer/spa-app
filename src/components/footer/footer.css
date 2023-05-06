@@ -1,0 +1,37 @@
+.foot {
+    height: auto;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+
+
+  .link {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .title{
+    padding-right: 10px;
+  }
+
+  .foot hr {
+    width: 86%;
+    margin: 20px auto;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .foot-a:hover {
+    color: #333;
+    border-radius: 7px;
+  }

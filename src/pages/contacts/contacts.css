@@ -1,0 +1,15 @@
+.numbers {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-between;
+}

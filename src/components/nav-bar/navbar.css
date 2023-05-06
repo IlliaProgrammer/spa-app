@@ -1,0 +1,42 @@
+:root {
+	--underline-height: .5em;
+	--transition-duration : .5s;
+}
+
+
+
+nav {
+    background-color:#283444;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 30px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: #fff;
+    color: #333;
+  }
